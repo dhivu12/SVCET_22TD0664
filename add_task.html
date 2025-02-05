@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Add Multiple Tasks</h2>
+    <form method="POST">
+        <textarea name="tasks" rows="10" cols="50" placeholder="Enter tasks, one per line" required></textarea><br><br>
+        <button type="submit">Add Tasks</button>
+    </form>
+{% endblock %}
